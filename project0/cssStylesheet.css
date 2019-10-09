@@ -1,0 +1,87 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#menuContainer {
+    margin: 0px;
+    padding: 0px;
+    background-image: 
+        linear-gradient(to right bottom, #fff3, #448b),
+        url('bgImg.jpg')
+    ;
+    
+    background-size: 100% 100vh;
+    border: 2px solid #ddd7;
+}
+
+#menuContainer ul {
+    padding: 33.5% 0 0.03% 0.2%;
+}
+
+#menuContainer ul li {
+    display: inline;
+    padding: 0.2% 9.29% 0.25% 9.29%;
+    margin: 0;
+    font-size: 150%;
+    font-family: Candara;
+    font-weight: 700;
+}
+
+#menuContainer ul li a {
+    color: #aaa;
+    text-decoration: none;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+#menuContainer ul li:hover a {
+    color:#226;
+}
+
+#menuContainer ul li:hover {
+    background-color: #ddd3;
+    font-size: 165%;
+    font-weight: 900;
+}
+
+#menuContainer ul li a:hover {
+    cursor: default;
+}
+
+#mainContainer {
+    margin: 0 8% 1% 1%;
+    background-color: #8ae6;
+    padding: 1% 2%;
+}
+
+#left-side {
+    font-size: 20px;
+    font-family: Calibri;
+    letter-spacing: 0.1rem;
+    text-align: right;
+    padding: 1% 1%;
+    font-weight: 900;
+    color: #a848;
+}
+
+#mainContainer p {
+    font-size: 24px;
+    font-family: sans-serif;
+    text-indent: 10%;
+    padding: 0.6% 1%;
+    letter-spacing: 0.15rem;
+}
+
+#mainContainer h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    margin-bottom: 1%;
+    color: #995;
+    padding-top: 2%;
+}
+
+#mainContainer img {
+    width: 20.5%;
+    padding: 2%;
+}
