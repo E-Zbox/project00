@@ -27,7 +27,7 @@
     font-size: 150%;
     font-family: Candara;
     font-weight: 700;
-    transition: all 2s ease-in-out;
+    transition: all 0.2s linear;
 }
 
 #menuContainer ul li a {
@@ -35,16 +35,19 @@
     text-decoration: none;
     padding: 0px;
     text-transform: uppercase;
+    
 }
 
 #menuContainer ul li:hover a {
     color:#226;
+    
 }
 
 #menuContainer ul li:hover {
     background-color: #ddd3;
     font-size: 165%;
     font-weight: 900;
+    
 }
 
 #menuContainer ul li a:hover {
