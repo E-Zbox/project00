@@ -2,6 +2,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 #menuContainer {
     margin: 0px;
@@ -26,6 +27,7 @@
     font-size: 150%;
     font-family: Candara;
     font-weight: 700;
+    transition: all 2s ease-in-out;
 }
 
 #menuContainer ul li a {
